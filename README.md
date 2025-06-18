@@ -1,5 +1,3 @@
-# -Furnixa-Company-Smart-Furniture-Management-System
-Furnixa is a fictional furniture retail and management company designed as a full-stack SQL-based project. The system simulates real-world enterprise database operations for handling sales, inventory, HR, and order tracking — with a focus on mastering SQL Server advanced features.
 # 🪑 Furnixa Company – Smart Furniture Management System
 
 **Furnixa** is a fictional company developed as an advanced SQL Server project that simulates a real-world furniture retail and management system. It serves as a practice and showcase project for mastering enterprise-level SQL concepts such as triggers, views, stored procedures, functions, and schema design.
