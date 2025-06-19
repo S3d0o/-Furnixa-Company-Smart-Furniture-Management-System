@@ -21,6 +21,32 @@
   - Sales reporting
 
 ---
+## 🧰 Tech Stack
+
+- **Microsoft SQL Server**
+- **T-SQL**
+- **GitHub** (Version Control)
+- *(Optional)* .NET Core or C# for frontend/backend integration
+
+---
+
+## 📌 Goals
+
+This project was designed to:
+
+- Reinforce advanced SQL concepts
+- Simulate real-life data handling
+- Demonstrate full control over schema design and data change tracking
+- Serve as a portfolio-ready backend database system
+
+---
+
+## 📎 Future Ideas
+
+- Integrate with a .NET API or frontend
+- Automate monthly sales reports using SQL Server Agent
+- Add role-based access logic using SQL users and permissions
+---
 
 ## 🧱 Project Structure
 
