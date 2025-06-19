@@ -26,7 +26,7 @@
 - **Microsoft SQL Server**
 - **T-SQL**
 - **GitHub** (Version Control)
-- *(Optional)* .NET Core or C# for frontend/backend integration
+- **.NET Core** or C# for frontend/backend integration
 
 ---
 
