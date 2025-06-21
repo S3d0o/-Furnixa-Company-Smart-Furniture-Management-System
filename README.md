@@ -51,24 +51,45 @@ This project was designed to:
 ## 🧱 Project Structure
 
 ```bash
-📦 Furnixa/
- ┣ 📁 schemas/
- ┃ ┣ 📄 changed_schema.sql
- ┃ ┣ 📄 hr_schema.sql
- ┃ ┗ 📄 sales_schema.sql
- ┣ 📁 triggers/
- ┃ ┣ 📄 trg_insert_audit.sql
- ┃ ┣ 📄 trg_update_audit.sql
- ┃ ┗ 📄 trg_delete_audit.sql
- ┣ 📁 procedures/
- ┃ ┣ 📄 proc_add_employee.sql
- ┃ ┣ 📄 proc_generate_invoice.sql
- ┃ ┗ 📄 proc_adjust_stock.sql
- ┣ 📁 views/
- ┃ ┣ 📄 vw_top_selling_products.sql
- ┃ ┣ 📄 vw_monthly_sales_report.sql
- ┣ 📁 functions/
- ┃ ┣ 📄 fn_format_fullname.sql
- ┃ ┗ 📄 fn_calculate_discount.sql
- ┗ 📄 README.md
-
+Furnexa-ERP/
+├── 📁 DDL/
+│   ├── create_schemas.sql
+│   ├── create_tables.sql
+│   ├── alter_tables.sql
+│   └── drop_tables.sql
+│
+├── 📁 DML/
+│   ├── insert_sample_data.sql
+│   └── update_delete_examples.sql
+│
+├── 📁 Procedures/
+│   └── usp_GetCustomerOrders.sql
+│   └── usp_AddNewCustomer.sql
+│
+├── 📁 Functions/
+│   └── fn_CalcOrderTotal.sql
+│   └── fn_TotalSalesPerProduct.sql
+│
+├── 📁 Views/
+│   └── vw_OrderWithTotal.sql
+│   └── vw_LowStockProducts.sql
+│
+├── 📁 Triggers/
+│   └── trg_AfterInsert_Order.sql
+│   └── trg_AfterUpdate_Employee.sql
+│   └── trg_AfterDelete_Product.sql
+│
+├── 📁 Audit_Logs/
+│   ├── inserted_log.sql
+│   ├── updated_log.sql
+│   └── deleted_log.sql
+│
+├── 📁 Indexes/
+│   └── index_customer_email.sql
+│   └── index_order_date.sql
+│
+├── 📁 ERD/
+│   └── Furnexa_ERD.png
+│
+├── README.md
+└── LICENSE
