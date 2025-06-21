@@ -6,7 +6,7 @@
 
 ## 🚀 Features
 
-- ✅ Modular **schema-based** architecture (`changed`, `HR`, `Sales`, etc.)
+- ✅ Modular **schema-based** architecture (`Audit`, `HR`, `Sales`, etc.)
 - ✅ Audit system with **triggers** to track:
   - Inserted records
   - Deleted records
