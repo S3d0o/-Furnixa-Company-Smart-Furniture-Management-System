@@ -23,10 +23,11 @@
 ---
 ## 🧰 Tech Stack
 
-- **Microsoft SQL Server**
-- **T-SQL**
-- **GitHub** (Version Control)
-- **.NET Core** or C# for frontend/backend integration
+- **📂 Microsoft SQL Server (T-SQL)**
+- **Relational database modeling (normalized)**
+- **SSMS for development/testing**
+- **🌐 GitHub for version control**
+- **🔧 Optional integration with C# / .NET Core API**
 
 ---
 
@@ -48,48 +49,36 @@ This project was designed to:
 - Add role-based access logic using SQL users and permissions
 ---
 
-## 🧱 Project Structure
+## 📌 Folder Structure
 
 ```bash
 Furnexa-ERP/
 ├── 📁 DDL/
-│   ├── create_schemas.sql
-│   ├── create_tables.sql
-│   ├── alter_tables.sql
-│   └── drop_tables.sql
-│
+│   └── -- Create, alter, and drop table scripts
+│ 
 ├── 📁 DML/
-│   ├── insert_sample_data.sql
-│   └── update_delete_examples.sql
-│
+│   └── -- Sample insert/update/delete operations
+│ 
 ├── 📁 Procedures/
-│   └── usp_GetCustomerOrders.sql
-│   └── usp_AddNewCustomer.sql
-│
+│   └── -- Stored procedures for core operations
+│    
 ├── 📁 Functions/
-│   └── fn_CalcOrderTotal.sql
-│   └── fn_TotalSalesPerProduct.sql
-│
+│   └── -- Scalar/table-valued functions
+│   
 ├── 📁 Views/
-│   └── vw_OrderWithTotal.sql
-│   └── vw_LowStockProducts.sql
+│   └── -- Analytical and business logic views
 │
 ├── 📁 Triggers/
-│   └── trg_AfterInsert_Order.sql
-│   └── trg_AfterUpdate_Employee.sql
-│   └── trg_AfterDelete_Product.sql
+│   └── -- Business rule triggers (not audit)
 │
 ├── 📁 Audit_Logs/
-│   ├── inserted_log.sql
-│   ├── updated_log.sql
-│   └── deleted_log.sql
+│   ├──  -- Inserted, Updated, Deleted log triggers
 │
 ├── 📁 Indexes/
-│   └── index_customer_email.sql
-│   └── index_order_date.sql
+│   └── -- SQL indexing scripts
 │
 ├── 📁 ERD/
-│   └── Furnexa_ERD.png
+│   └── -- Database diagram and design
 │
 ├── README.md
 └── LICENSE
