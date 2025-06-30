@@ -29,7 +29,7 @@ BEGIN
 
     -- Return formatted message
     RETURN CONCAT(@CustName, ' has been active for ',
-                  @Years, ' year', CASE WHEN @Years > 1 THEN 's' ELSE '' END,
+                  @Years, ' year', CASE WHEN @Years != 1 THEN 's' ELSE '' END,
                   ' and ',
-                  @Months, ' month', CASE WHEN @Months > 1 THEN 's' ELSE '' END);
+                  @Months, ' month', CASE WHEN @Months != 1 THEN 's' ELSE '' END);
 END;
