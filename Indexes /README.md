@@ -45,6 +45,6 @@ Indexes in this folder are used to:
 ## 📎 Related Folders
 
 - [`/Triggers`](../Triggers) – Indexes support fast change tracking
-- [`/Audit logs`](../Audit_logs) – Indexes improve search/filtering on audit entries
+- [`/Audit logs`](../Audit_Logs) – Indexes improve search/filtering on audit entries
 - [`/Views`](../Views) – Indexes enhance performance of complex joins and filters
 
