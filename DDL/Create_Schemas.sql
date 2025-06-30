@@ -1,0 +1,9 @@
+--Create Schemas
+
+CREATE SCHEMA HR;
+CREATE SCHEMA Sales;
+CREATE SCHEMA Inventory;
+CREATE SCHEMA Reports;
+CREATE SCHEMA Audit;
+CREATE SCHEMA Procedures;
+CREATE SCHEMA audit;
