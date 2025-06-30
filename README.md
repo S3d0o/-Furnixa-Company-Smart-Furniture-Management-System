@@ -1,8 +1,8 @@
 # 🪑 Furnixa Company – Smart Furniture Management System
-
-Furnixa is a fictional ERP system developed as a professional SQL Server project that simulates a real-world furniture business environment. It demonstrates mastery in enterprise-grade SQL development — including schemas, triggers, views, procedures, audit logs, and performance optimization.
 ---
+**Furnixa** is a fictional ERP system developed as a professional SQL Server project that simulates a real-world furniture business environment. It demonstrates mastery in enterprise-grade SQL development — including schemas, triggers, views, procedures, audit logs, and performance optimization.
 
+---
 ## 🚀 Features
 
 - ✅ Modular **schema-based** architecture (`Audit`, `HR`, `Sales`, etc.)
